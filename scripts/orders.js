@@ -61,7 +61,7 @@ function renderOrders() {
   const searchInput = document.querySelector(".js-search-input");
 
   searchButtonElement.addEventListener("click", () => {
-    window.location.href = `amazon.html?search=${searchInput.value}`
+    window.location.href = `index.html?search=${searchInput.value}`
   })
 }
 
